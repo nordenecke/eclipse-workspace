@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+analysis_excel|C:\eclipse-workspace\y_survey\analysis_excel.py
+analysis_xlsx_by_pyxl|C:\eclipse-workspace\y_survey\analysis_xlsx_by_pyxl.py
+creat_db|C:\eclipse-workspace\y_survey\creat_db.py
+get_file_list|C:\eclipse-workspace\y_survey\get_file_list.py
+import_data|C:\eclipse-workspace\y_survey\import_data.py
+parse_xlsx|C:\eclipse-workspace\y_survey\parse_xlsx.py
+read_xlsx|C:\eclipse-workspace\y_survey\read_xlsx.py
+test_openpyxl_1|C:\eclipse-workspace\y_survey\test_openpyxl_1.py
+y_survey|C:\eclipse-workspace\y_survey\y_survey.py
