@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<survey_data>
+	<question>
+		<question_id>1</question_id>
+		<question_type>1</question_type>
+		<shape_group shape_id="21" shape_item_num="4">
+			<shape_item>
+				<shape_id>250</shape_id>
+				<shape_type>1</shape_type>
+			</shape_item>
+			<shape_item>
+				<shape_id>251</shape_id>
+				<shape_type>1</shape_type>
+			</shape_item>
+			<shape_item>
+				<shape_id>252</shape_id>
+				<shape_type>1</shape_type>
+			</shape_item>
+			<shape_item>
+				<shape_id>253</shape_id>
+				<shape_type>1</shape_type>
+			</shape_item>			
+		</shape_group>
+	</question>
+</survey_data>
