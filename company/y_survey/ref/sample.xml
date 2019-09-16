@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkPmMrDataFile>
+    <fileHeader fileFormatVersion="V1.0.4" reportTime="2016-02-22T21:00:00.000" ></fileHeader>
+    <eNB id="122941">
+        <measurement>
+            <smr>MR.LteScRSRP MR.LteScRSRQ MR.LteScTadv MR.LteSceNBRxTxTimeDiff ...</smr>
+            <object id="31472897" MmeUeS1apId="2417300878" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:02.517">
+                <v>38 22 6 31 34 0 34 38400 110 NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL 7 23 NIL 26 24 0 0 </v>
+            </object>
+            <object id="31472897" MmeUeS1apId="2416229278" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:02.792">
+                <v>61 30 5 32 45 0 27 38400 110 NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL 7 14 NIL 1 49 0 0 </v>
+            </object>
+            <object id="31472897" MmeUeS1apId="2148286566" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:07.177">
+                <v>42 26 5 31 30 412 35 38400 110 NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL 7 14 NIL 26 24 0 0 </v>
+            </object>
+            <object id="31472897" MmeUeS1apId="2417300878" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:07.677">
+                <v>39 22 7 31 35 387 36 38400 110 36 18 38400 108 NIL NIL NIL NIL NIL NIL NIL 5 10 NIL 25 25 0 0 </v>
+            </object>
+            <object id="31472897" MmeUeS1apId="2416229278" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:07.962">
+                <v>61 27 5 31 43 427 36 38400 110 49 4 38400 108 NIL NIL NIL NIL NIL NIL NIL 9 13 NIL 1 49 0 0 </v>
+                <v>61 27 5 31 43 427 36 38400 110 46 0 38400 295 NIL NIL NIL NIL NIL NIL NIL 9 13 NIL 1 49 0 0 </v>
+            </object>
+            <object id="31472897" MmeUeS1apId="269973066" MmeGroupId="1025" MmeCode="199" TimeStamp="2016-02-22T20:00:08.382">
+                <v>41 23 9 32 23 447 36 38400 110 32 11 38400 358 NIL NIL NIL NIL NIL NIL NIL 6 22 NIL 24 26 0 0 </v>
+                <v>41 23 9 32 23 447 36 38400 110 31 7 38400 295 NIL NIL NIL NIL NIL NIL NIL 6 22 NIL 24 26 0 0 </v>
+                <v>41 23 9 32 23 447 36 38400 110 28 8 38400 460 NIL NIL NIL NIL NIL NIL NIL 6 22 NIL 24 26 0 0 </v>
+            </object>
+        </measurement>
+        <measurement>
+            <smr>MR.LteScPlrULQci1 MR.LteScPlrULQci2 MR.LteScPlrULQci3 MR.LteScPlrULQci4 ...</smr>
+            <object id="60057088" MmeUeS1apId="2416982066" MmeGroupId="1025" MmeCode="206" TimeStamp="2016-02-24T06:00:03.962">
+                <v>NIL NIL NIL NIL NIL NIL NIL NIL 0 NIL NIL NIL NIL NIL NIL NIL NIL 0 </v>
+            </object>
+            ..........................
+        </measurement>
+        <measurement>
+            <smr>MR.LteScRIP</smr>
+            <object id="60057089:37900:2" TimeStamp="2016-02-24T06:00:11.259" MmeCode="NIL" MmeGroupId="NIL" MmeUeS1apId="NIL">
+                <v>81</v>
+            </object>
+            ..........................
+        </measurement>
+    </eNB>
+</bulkPmMrDataFile>

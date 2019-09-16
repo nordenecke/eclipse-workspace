@@ -25,15 +25,39 @@ print('%s' % (shape.FormControlType)) == 4 means xlGroupBox
 '''
 import gc
 import os
+from enum import Enum
 from win32com.client import gencache
 
+XML_TAG_SURVEY_DATA = 'survey_data'
+XML_TAG_QUESTION ='question'
+XML_TAG_QUESTION_ID = 'question_id'
+XML_TAG_QUESTION_TYPE = 'question_type'
+XML_TAG_SHAPE_GROUP = 'shape_group'
+XML_ATTR_SHAPE_ID = 'shape_id'
+XML_ATTR_SHAPE_ITEM_NUM = 'shape_item_num'
+XML_TAG_SHAPE_ITEM = 'shape_item'
+XML_TAG_SHAPE_ID = 'shape_id'
+XML_TAG_SHAPE_TYPE = 'shape_type'
+
+class Question_type(Enum):
+    SINGLE_CHOICE = 1
+    MULTIPLE_CHOICE = 2
+    SINGLE_CHOICE_AND_REST_TEXT =3
+    TEXT_CONTENT =3
+
+class Form_control_type(Enum):
+    RADIO_BUTTON = 1
+    CHECK_BOX = 2
+    TEXT_BOX =3
+
+OUTPUT_FILES_BASE_PATH = r'data'
+XML_MAP_FILENAME = r'qa-map.xml'    
+
+
 class Xlsx_parser(object):
-    wb = None
-    ws = None
-    
     def __init__(self,xlsx_file_name):
         self.xlsx_file = xlsx_file_name
-        self.element_list = []
+        self.elements_info = {}
         self.wb = None
         self.ws = None
         
@@ -73,15 +97,27 @@ class Xlsx_parser(object):
                     print('%s %s' % (shape.AlternativeText, shape.ControlFormat.Value))
                 if 'Group Box' in shape.Name:
                     print('%s' % (shape.AlternativeText))
-#                     oBoxRange = range(shape.TopLeftCell, shape.BottomRightCell)
-#                     for i in oBoxRange:
-#                         print(i)
-#                     for shape in shape.controls:
-#                         print('shape.ID=[%d] shape.Name=[%s]'%(shape.ID,shape.Name))
-                        
-                    
+                    print(help(shape))
+                    print(dir(shape))
+    
+    def get_all_elements_to_json(self):                   
+        for shape in self.ws.Shapes:
+            if shape.Type == 8: # [MsoShapeType.msoFormControl]: form control
+                if 'Check Box' in shape.Name:
+                    print('%s %s' % (shape.AlternativeText, shape.ControlFormat.Value))
+                if 'Option Button' in shape.Name:
+                    print('%s %s' % (shape.AlternativeText, shape.ControlFormat.Value))
+                if 'Group Box' in shape.Name:
+                    print('%s' % (shape.AlternativeText))
+                    print(help(shape))
+                    print(dir(shape))
+        print(self.elements_info)
+        return self.elements_info
+    
     def get_question_item_index_and_value_by_group_box(self,shape_group_box):
         pass
+
+    
                         
 INPUT_FILES_BASE_PATH = r'data\template'
 XLSX_TEST_FILENAME = r'test_sample.xlsx'  

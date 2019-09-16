@@ -186,7 +186,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_cSqB1NSJEemmheabZklUAw" containerData="7400" selectedElement="_cSqB1dSJEemmheabZklUAw">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_cSqB1dSJEemmheabZklUAw" containerData="5622" selectedElement="_cSqB1tSJEemmheabZklUAw" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_cSqB1dSJEemmheabZklUAw" containerData="6132" selectedElement="_cSqB1tSJEemmheabZklUAw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_cSqB1tSJEemmheabZklUAw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_RyQaoNSIEemmheabZklUAw"/>
                 <children xsi:type="basic:PartStack" xmi:id="_cSqB19SJEemmheabZklUAw" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="2500" selectedElement="_-mE70NSWEemQ5YH3rmZNhw">
                   <children xsi:type="advanced:Placeholder" xmi:id="_cSqB2NSJEemmheabZklUAw" elementId="org.eclipse.ui.views.ContentOutline" ref="_RyY9gdSIEemmheabZklUAw" closeable="true">
@@ -203,7 +203,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_cSqB2tSJEemmheabZklUAw" elementId="bottom" containerData="4378" selectedElement="_cSqB3NSJEemmheabZklUAw">
+              <children xsi:type="basic:PartStack" xmi:id="_cSqB2tSJEemmheabZklUAw" elementId="bottom" containerData="3868" selectedElement="_cSqB3NSJEemmheabZklUAw">
                 <tags>Bookmark</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_cSqB29SJEemmheabZklUAw" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_cSoMoNSJEemmheabZklUAw" closeable="true">
                   <tags>View</tags>
@@ -266,23 +266,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_RyQaoNSIEemmheabZklUAw" elementId="org.eclipse.ui.editorss" selectedElement="_RyQaodSIEemmheabZklUAw">
-      <children xsi:type="basic:PartStack" xmi:id="_RyQaodSIEemmheabZklUAw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_WwXAYNVZEemjoZEr5U4q_A">
+      <children xsi:type="basic:PartStack" xmi:id="_RyQaodSIEemmheabZklUAw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_DpwbkNVcEemjoZEr5U4q_A">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_WwXAYNVZEemjoZEr5U4q_A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="xlsx_parser" iconURI="platform:/plugin/org.python.pydev.shared_ui/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;xlsx_parser.py&quot; partName=&quot;xlsx_parser&quot; title=&quot;xlsx_parser&quot; tooltip=&quot;y_work/xlsx_parser.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/y_work/xlsx_parser.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3434&quot; selectionTopPixel=&quot;1295&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;xlsx_parser.py&quot; partName=&quot;xlsx_parser&quot; title=&quot;xlsx_parser&quot; tooltip=&quot;y_work/xlsx_parser.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/y_work/xlsx_parser.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3666&quot; selectionTopPixel=&quot;1296&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.python.pydev.editor.PythonEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_DpwbkNVcEemjoZEr5U4q_A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="xml_map_gen" iconURI="platform:/plugin/org.python.pydev.shared_ui/icons/python_file.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;xml_map_gen.py&quot; partName=&quot;xml_map_gen&quot; title=&quot;xml_map_gen&quot; tooltip=&quot;y_work/xml_map_gen.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/y_work/xml_map_gen.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1436&quot; selectionTopPixel=&quot;666&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_DpwbkNVcEemjoZEr5U4q_A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="xml_map_gen" iconURI="platform:/plugin/org.python.pydev.shared_ui/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;xml_map_gen.py&quot; partName=&quot;xml_map_gen&quot; title=&quot;xml_map_gen&quot; tooltip=&quot;y_work/xml_map_gen.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/y_work/xml_map_gen.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;34&quot; selectionOffset=&quot;3031&quot; selectionTopPixel=&quot;1169&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.python.pydev.editor.PythonEditor</tags>
-          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -438,7 +438,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RqJngNSIEemmheabZklUAw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_UQedkNVZEemjoZEr5U4q_A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RNoq4tSIEemmheabZklUAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_TodeAdabEemq2-Z8_tJ9iQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_RNoq4tSIEemmheabZklUAw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RqJngdSIEemmheabZklUAw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -472,7 +472,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RqJniNSIEemmheabZklUAw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_UQgSwtVZEemjoZEr5U4q_A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_RNoDx9SIEemmheabZklUAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_TodeDtabEemq2-Z8_tJ9iQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_RNoDx9SIEemmheabZklUAw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RqKOkNSIEemmheabZklUAw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

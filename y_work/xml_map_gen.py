@@ -28,15 +28,29 @@ class Xml_generator:
     def __init__(self,xlsx_file_name,xml_path):
         self.xlsx_template_path = xlsx_file_name
         self.xml_map_path = xml_path
+        self.doc = None
         self.element_list = []
 
-    def read_xlsx_template(self):
-        txtfile = open(self.xlsx_template_path,"r",encoding='gbk',errors='ignore')
-        self.element_list = txtfile.readlines()
-        for i in self.element_list:
-            oneline = i.strip().split(" ")
-            if len(oneline) != 5:
-                print("TxtError")
+    def open(self):
+        self.doc= Document()
+        
+    def close(self):
+        f = open(self.xml_map_path, 'w')
+        self.doc.writexml(f, indent='\t', newl='\n', addindent='\t', encoding='gbk')
+        f.close()
+        
+    def add_element(self, parent_obj, element_name, element_value):
+        element = doc.createElement(element_name)
+        element_text = doc.createTextNode(element_value)
+        element.appendChild(element_text)
+        parent_obj.appendChild(element)
+    
+    def add_Attribute(self, parent_obj, attribute_name, attribute_value):
+        pass
+        
+        
+    def read_xlsx_template_and_generate_xml(self):
+        pass
 
     def makexml(self):
         doc = Document()
@@ -81,6 +95,7 @@ if __name__ == "__main__":
     xml_map_file = os.path.abspath('.') + '\\' + OUTPUT_FILES_BASE_PATH +'\\'+ XML_MAP_FILENAME
     print(xlsx_template_file)
     print(xml_map_file)
+
     xp = Xlsx_parser(xlsx_template_file)
     xp.open()
 #     xp.print_all_form_controls()
